@@ -1,28 +1,66 @@
-# 自己紹介ページ
+---
+---
 
-こんにちは。GitHub Pagesで作成したページです。
+# h1 Heading
+## h2 Heading
+### h3 Heading
+#### h4 Heading
+##### h5 Heading
+###### h6 Heading
 
-## 興味のある分野
+## Emphasis
 
-- プログラミング
-- AI・IoT
-- Web開発
-- プロジェクト管理
+**This is bold text**
 
-## 今回学んだこと
+__This is bold text__
 
-Gitを使ったバージョン管理、GitHubへのpush、ブランチのmerge、clone、GitHub PagesによるWebページ公開を学びました。
+*This is italic text*
 
-## ひとこと
+_This is italic text_
 
-今後は、チーム開発でもGitHubを使いこなせるように練習していきたいです。
+~~Strikethrough~~
 
-## 画像
+## Blockquotes
 
-![Minion](https://octodex.github.com/images/minion.png)
+> Blockquotes can also be nested...
+>> ...by using additional greater-than signs right next to each other...
+> > > ...or with spaces between arrows.
 
-![Stormtroopocat](https://octodex.github.com/images/stormtroopocat.jpg "The Stormtroopocat")
+## Lists
 
-## Youtube動画
+Unordered
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/MXyspoCaQls?si=8BinsxDLmDUqxELa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
++ Create a list by starting a line with `+`, `-`, or `*`
++ Sub-lists are made by indenting 2 spaces:
+  - Marker character change forces new list start:
+    * Ac tristique libero volutpat at
+    + Facilisis in pretium nisl aliquet
+    - Nulla volutpat aliquam velit
++ Very easy!
+
+Ordered
+
+1. Lorem ipsum dolor sit amet
+2. Consectetur adipiscing elit
+3. Integer molestie lorem at massa
+1. You can use sequential numbers...
+1. ...or keep all the numbers as `1.`
+
+Start numbering with offset:
+
+57. foo
+1. bar
+
+## Code
+
+Inline `code`
+
+Indented code
+
+    // Some comments
+    line 1 of code
+    line 2 of code
+    line 3 of code
+
+Block code "fences"
+
